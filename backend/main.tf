@@ -9,7 +9,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "us-east-1"
+  region = "canada-central-1"
 }
 
 resource "aws_s3_bucket" "example" {
